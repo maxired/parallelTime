@@ -1,0 +1,18 @@
+{
+  "name": "parallelTime",
+  "version": "1.0.0",
+  "description": "NodeJs library to measure time taken by a part of your software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxired/parallelTime.git"
+  },
+  "author": "maxired <maxired@github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "debuglog": "^1.0.1"
+  }
+}
