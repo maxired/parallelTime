@@ -1,7 +1,7 @@
-var parallelTime = require('../');
-parallelTime.debugTime(2000);
+var paralleltime = require('../');
+paralleltime.debugTime(2000);
 
-var measure = parallelTime.startMeasure();
+var measure = paralleltime.startMeasure();
 
 setTimeout(function(){
 measure.stop();

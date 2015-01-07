@@ -46,12 +46,12 @@ debugTime : function(interval){
 
               interval = interval || 2000;
               setInterval( function( ) { 
-                  console.log('[parallelTime]', 'total time is ', module.exports.getTotalHrTime());
-                  console.log('[parallelTime]', 'unit time is ', [ Math.floor(unitTime/1000000000) , unitTime%1000000000 ]);
-                  console.log('[parallelTime]', 'finished measure is ', measureStopped);
-                  console.log('[parallelTime]', 'running measure is ', measureStarted-measureStopped);
+                  console.log('[paralleltime]', 'total time is ', module.exports.getTotalHrTime());
+                  console.log('[paralleltime]', 'unit time is ', [ Math.floor(unitTime/1000000000) , unitTime%1000000000 ]);
+                  console.log('[paralleltime]', 'finished measure is ', measureStopped);
+                  console.log('[paralleltime]', 'running measure is ', measureStarted-measureStopped);
 
-                  measureStopped &&     console.log('[parallelTime]', 'mean time is ',  Math.floor(unitTime/measureStopped/1000), "ns");
+                  measureStopped &&     console.log('[paralleltime]', 'mean time is ',  Math.floor(unitTime/measureStopped/1000), "ns");
 
                   }, interval );
             }
@@ -59,7 +59,7 @@ debugTime : function(interval){
 
 
 var debugEnviron = process.env.NODE_DEBUG || '';
-var set = "parallelTime";
+var set = "paralleltime";
 if(new RegExp('\\b' + set + '\\b', 'i').test(debugEnviron)) {
   module.exports.debugTime(2000);
 }

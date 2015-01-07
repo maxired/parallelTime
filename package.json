@@ -1,5 +1,5 @@
 {
-  "name": "parallelTime",
+  "name": "paralleltime",
   "version": "1.0.0",
   "description": "NodeJs library to measure time taken by a part of your software",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxired/parallelTime.git"
+    "url": "https://github.com/maxired/paralleltime.git"
   },
   "author": "maxired <maxired@github.com>",
   "license": "MIT",
